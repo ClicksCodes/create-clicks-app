@@ -1,19 +1,12 @@
 {
     "$schema": "https://json.schemastore.org/tsconfig",
-    "display": "Node 19 + ESM + Strictest",
+    "display": "Node 19 + ESM",
     "compilerOptions": {
         "lib": ["es2022"],
         "strict": true,
-        "exactOptionalPropertyTypes": true,
-        "noFallthroughCasesInSwitch": true,
-        "noImplicitOverride": true,
-        "noPropertyAccessFromIndexSignature": true,
         "noUncheckedIndexedAccess": true,
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
-        "forceConsistentCasingInFileNames": true,
-        "allowUnusedLabels": false,
-        "allowUnreachableCode": false,
+        "allowUnusedLabels": true,
+        "allowUnreachableCode": true,
         "module": "NodeNext",
         "target": "es2020",
         "sourceMap": true,
@@ -24,8 +17,7 @@
         "resolveJsonModule": true,
         "moduleResolution": "NodeNext",
         "skipLibCheck": true,
-        "noImplicitReturns": false,
-        "checkJs": true
+        "noImplicitReturns": false
     },
     "include": ["src/**/*", "src/*"]
 }

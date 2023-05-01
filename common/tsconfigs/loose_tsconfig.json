@@ -1,6 +1,6 @@
 {
     "$schema": "https://json.schemastore.org/tsconfig",
-    "display": "Node 19 + ESM + Strictest",
+    "display": "Node 19 + ESM + Loose",
     "compilerOptions": {
         "lib": ["es2022"],
         "strict": true,
